@@ -30,5 +30,14 @@ git checkout -b branchName # Create new branch
 git diff branchName        # Check difference with branch
 git merge sourceBranchName # Merge source branch into current branch
 
+## git reset cmd
+
+git reset --soft HEAD~1       # Undo last commit, keep changes staged
+git reset --mixed HEAD~1      # Undo last commit, keep changes unstaged
+git reset --hard HEAD~1       # Undo last commit and discard changes
+git reset <file>              # Unstage a specific file
+git restore <file>            # Discard changes in a file (newer Git versions)
+
+
 
 
