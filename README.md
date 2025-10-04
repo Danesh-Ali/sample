@@ -1,5 +1,5 @@
 # Sample
-Sample project for learning Git.
+Sample project for practicing again Git cmd
 
 ---
 
