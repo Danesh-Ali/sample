@@ -1,18 +1,33 @@
-# sample
-sample for git 
+# Sample
+Sample project for learning Git.
 
-# git commands
+---
+
+# Git Commands
+
+### Configuration
+```bash
 git config --global user.name "sample"
 git config --global user.email "email@mail.com"
-git add .
-git pull
-git push -u origin main // use for next time only git push // same for git pull use -u origin main 
 
-git checkout brachName // to switch branch
-git checkout -b branchName // to create new branch
-git diff branchName // to check difference btw both branches
-git merge source branch name // to merge branch
+#Basic Command
 
-=======
-# NEW PROJECT
-This project was created for testing 
+git add .                  # Stage all changes
+git commit -m "message"    # Commit changes
+git pull origin main       # Pull latest changes
+git push -u origin main    # First time push (sets upstream)
+git push                   # Use this after upstream is set
+git pull                   # Use this after upstream is set
+
+#Branching cmd
+
+git checkout branchName    # Switch to branch
+git checkout -b branchName # Create new branch
+
+# Compare & Merge
+
+git diff branchName        # Check difference with branch
+git merge sourceBranchName # Merge source branch into current branch
+
+
+
