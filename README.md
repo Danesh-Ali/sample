@@ -30,7 +30,15 @@ git checkout -b branchName # Create new branch
 git diff branchName        # Check difference with branch
 git merge sourceBranchName # Merge source branch into current branch
 
-## git reset cmd
+#Logs & History
+
+git log                       # Show commit history (detailed)
+git log --oneline             # Compact view of history
+git log --graph --oneline     # Visualize branch/merge history
+git reflog                    # Show history of all HEAD changes (even after reset)
+
+
+## Undo & Reset
 
 git reset --soft HEAD~1       # Undo last commit, keep changes staged
 git reset --mixed HEAD~1      # Undo last commit, keep changes unstaged
