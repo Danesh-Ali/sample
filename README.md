@@ -14,6 +14,7 @@ git config --global user.email "email@mail.com"
 
 git add .                  # Stage all changes
 git commit -m "message"    # Commit changes
+git commit -am "message"   # to add and commit file
 git pull origin main       # Pull latest changes
 git push -u origin main    # First time push (sets upstream)
 git push                   # Use this after upstream is set
